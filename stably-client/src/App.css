@@ -34,7 +34,7 @@ input {
   border: 1px solid lightgray;
   padding: 0.5em;
 }
-button.loading {
+button.loading, button:hover.loading {
   background: #783989 url("./loader.gif") center no-repeat ;
   background-size: 25px ;
   padding: 0;
@@ -43,7 +43,8 @@ button:hover{
   background: #783989;
 }
 small{
-  color: #6b6a6a
+  color: #6b6a6a;
+  margin-top: 10px
 }
 
 .inner{
@@ -59,3 +60,19 @@ small{
   padding: 0.5em;
   color:#783989
 }
+@media only screen and (max-width: 992px) {
+ .answer{
+  width: 50%;
+ }
+ form{
+   width: 70%;
+ }
+}
+@media only screen and (max-width: 600px) {
+  .answer{
+   width: 70%;
+  }
+  form{
+    width: 70%;
+  }
+ }

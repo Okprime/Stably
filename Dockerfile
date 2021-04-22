@@ -1,5 +1,3 @@
-# This file gets the build folder from the stably-client directory and adds it to a new folder in the stably-server directory
-
 FROM node:14 AS client
 
 WORKDIR /app

@@ -28,15 +28,15 @@ npm run lint
 
 - The JSON payload sent must have the structure specified below;
 
-  ```javascript
+  ```
   {
     "number": "55"
-}
+  }
   ```
 
 - You get this as a response.
 
-```javascript
+```
 {
     "status": "success",
     "message": "The closest prime number is 53",
@@ -67,8 +67,6 @@ POST /get-highest-prime-number
 ### INSTALLATION AND LOCAL SETUP
 
 - Run the command `git clone https://github.com/Okprime/stably.git` on your terminal to clone this repo to your current directory.
-
-# With Docker
 
 # Note: It is preassumed here that you have docker running in background
 

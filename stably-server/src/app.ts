@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(compression());
 app.use(morgan("dev"));
 
-// server the react app via express
+// Serve static files from the React app
 app.use(express.static(path.join(__dirname, "../stably-client")))
 
 // catch invalid JSON payloads
