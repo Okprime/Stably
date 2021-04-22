@@ -1,6 +1,6 @@
 # stably-client
 
-## Project setup
+## APP setup
 ```
 npm install
 ```
@@ -22,14 +22,12 @@ npm run lint
 
 # stably-server
 
-- ##### DEMO - https://stably.herokuapp.com/
+- ##### UI - https://stably.herokuapp.com/
 
 - ##### API DOCS - https://documenter.getpostman.com/view/6090065/TzJx6vHA
 
-```markdown
-
 TECHNOLOGY USED
-
+```
 - Front-end: React
 
 - Back-end: Typescript
@@ -61,9 +59,9 @@ TECHNOLOGY USED
 ### AVAILABLE ENDPOINTS
 
 ```markdown
-GET / - Get my profile
+GET / 
 
-- returns: JSON
+- returns: This serves the static file from the React app.
 ```
 
 ```markdown
@@ -84,7 +82,7 @@ POST /get-highest-prime-number
 - Run the command `git clone https://github.com/Okprime/Stably.git` on your terminal to clone this repo to your current directory.
 
 # Note: It is preassumed here that you have docker running in background. 
-# If you do not visit Docker hub [https://hub.docker.com/] intall.
+# If you do not visit Docker hub https://hub.docker.com/ intall.
 # Once it i installed, make sure to have it running.
 
 ```
