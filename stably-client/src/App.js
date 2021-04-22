@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import './App.css';
 
-const apiUrl = "https://stably.herokuapp.com/ap1/v1";
+const apiUrl = "https://stably.herokuapp.com/api/v1";
 
 const App = () =>  {
   const { register, handleSubmit, handleChange } = useForm();
