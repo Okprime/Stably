@@ -1,4 +1,71 @@
-A brief wiki for the application can be found in the Wiki tab
+Welcome!
+
+- ##### UI - https://stably.herokuapp.com/
+
+- ##### API DOCS - https://documenter.getpostman.com/view/6090065/TzJx6vHA
+
+Design Decision
+
+This application takes the Single tier (monolith) approach and some of the reasons for that are;
+
+* Developing is at maximum ease. 
+
+* It is simple to test.
+
+* It is simple to deploy.
+
+* No network latency. 
+
+* Data is quickly and easily available
+
+
+Trade-off
+
+I decided to use Typescript basically because of the following;
+
+* It is easier to refactor code without breaking it significantly.
+
+* Clear Library API Definition
+
+* ES6 Feature Support
+
+* Build-in Support for JavaScript Packaging
+
+TECHNOLOGY USED
+```
+- Front-end: React
+
+- Back-end: Typescript
+
+- CI/CD: Travis/Docker
+
+- Deployment: Heroku
+
+```
+
+PROJECT STRUCTURE
+```
+.
+├── stably-client
+│   ├── public
+│   └── src
+│   └── .gitignore
+│   └── package-lock.json
+│   └── package.json
+├── stably-server
+│   ├── src
+│   ├── .gitignore
+│   └── package-lock.jsom
+│   └── package.jsom
+│   └── tsconfig.json
+│   └── yarn-error.log
+│   └── tsconfig.json
+├── .gitignore
+├── .travis.yml
+├── Dockerfile
+├── heroku.yml
+└── README.md
+```
 
 # stably-client
 
@@ -23,22 +90,6 @@ npm run lint
 ```
 
 # stably-server
-
-- ##### UI - https://stably.herokuapp.com/
-
-- ##### API DOCS - https://documenter.getpostman.com/view/6090065/TzJx6vHA
-
-TECHNOLOGY USED
-```
-- Front-end: React
-
-- Back-end: Typescript
-
-- CI/CD: Travis/Docker
-
-- Deployment: Heroku
-
-```
 
 - The JSON payload sent must have the structure specified below;
 
