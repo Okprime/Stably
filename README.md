@@ -1,3 +1,5 @@
+A brief wiki for the application can be found here https://github.com/Okprime/Stably.wiki.git
+
 # stably-client
 
 ## APP setup
