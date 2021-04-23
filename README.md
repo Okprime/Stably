@@ -1,4 +1,4 @@
-A brief wiki for the application can be found here https://github.com/Okprime/Stably.wiki.git
+A brief wiki for the application can be found in the Wiki tab
 
 # stably-client
 
